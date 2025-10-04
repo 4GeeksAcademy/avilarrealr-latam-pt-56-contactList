@@ -83,7 +83,7 @@ export function ContactsList() {
                     borderRadius: "30px"
                 }}
             >
-                <User username={username} />
+                <User extra="Hi, " username={username} info="This is your contact list"/>
                 <i
                     className="fa-solid fa-right-from-bracket text-danger pt-5 fs-3"
                     style={{ cursor: 'pointer' }}

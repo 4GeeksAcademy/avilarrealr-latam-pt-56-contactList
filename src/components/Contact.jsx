@@ -20,7 +20,7 @@ export function Contact({ contacts, deleteContactUser }) {
                             style={{
                                 width: "auto",
                                 height: "auto",
-                                background: "rgba(255, 255, 255, 0.17)",
+                                background: "rgba(255, 255, 255, 0.45)",
                                 backdropFilter: "blur(5px)",
                                 borderRadius: "30px"
                             }}

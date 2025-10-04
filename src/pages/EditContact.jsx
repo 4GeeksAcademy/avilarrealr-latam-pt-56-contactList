@@ -81,7 +81,7 @@ export function EditContact() {
                 borderRadius: "30px"
             }}
         >
-            <User username={username} extra="Hi, " info="Updating your contact, you must fill in all fields" />
+            <User username={username} extra="Warning " info="Updating your contact, check the info" />
             <Form data={contactData}
                 onChange={handleChange} />
             <button

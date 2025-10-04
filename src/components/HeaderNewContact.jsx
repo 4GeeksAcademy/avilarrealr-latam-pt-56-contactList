@@ -10,7 +10,7 @@ export function HeaderNewContact() {
                     <p className="fw-lighter">Add new contact in your list</p>
                 </div>
             </div>
-            <button className="border-0">
+            <button className="border-0" style={{background: "none"}}>
                 <i className="text-muted fa-solid fa-xmark"></i>
             </button>
         </div>
