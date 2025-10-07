@@ -1,7 +1,7 @@
 export const initialStore=()=>{
   return{
     message: null,
-    user: "" || "Marcel",
+    user: "",
     id: null
   }
 }

@@ -7,6 +7,7 @@ import { SingUpHeader } from "../components/SingUpHeader.jsx";
 export const CreateUser = () => {
 
     const navigate = useNavigate()
+    const {dispatch} = useGlobalReducer()
 
 
     async function addUserAgenda(username) {
@@ -19,6 +20,10 @@ export const CreateUser = () => {
                 alert(`Error, el usuario: ${username}, ya existe`)
                 return
             }
+            dispatch({
+                type: "SET_CURRENT_USER",
+                payload: username
+            })
             navigate("/1")
         } catch (error) {
             console.log("Error ", error)

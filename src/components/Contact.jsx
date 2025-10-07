@@ -17,6 +17,7 @@ export function Contact({ contacts, deleteContactUser }) {
                     return (
                         <li
                             className="list-group-item d-flex justify-content-between align-items-center my-2"
+                            key={contact.id}
                             style={{
                                 width: "auto",
                                 height: "auto",

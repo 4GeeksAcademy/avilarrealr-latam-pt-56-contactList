@@ -56,8 +56,6 @@ export function EditContact() {
             });
 
             if (response.ok) {
-                console.log("Contacto actualizado exitosamente.")
-
                 navigate("/1")
             } else {
                 console.error("Error al actualizar contacto. Status:", response.status)
